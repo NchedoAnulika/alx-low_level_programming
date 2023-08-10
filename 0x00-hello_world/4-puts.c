@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
- * main= The entry point
+ * main - Entry point
  *
- * return=returns the integer 0
+ * Description: This is the main function that prints a message.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
