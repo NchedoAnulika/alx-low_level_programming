@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 /**
  * malloc_checked - Allocates memory with error handling.
@@ -10,12 +9,10 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *ptr;
-	ptr = malloc(b);
+	void *p;
+	p = malloc(b);
 
-	if (ptr == NULL)
-	{
+	if (p == NULL)
 		exit(98);
-	}
-	return (ptr);
+	return (p);
 }
