@@ -29,7 +29,7 @@ void print_opcodes(char *a, int n)
  *
  * Return: 0 Always
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	int n;
 
