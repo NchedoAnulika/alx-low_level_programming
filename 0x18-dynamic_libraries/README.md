@@ -1,0 +1,1 @@
+This directory contains programs written in C that demonstrate the usage and creation of dynamic libraries in Linux. Dynamic libraries, often referred to as shared libraries, are collections of code and data that can be loaded into and accessed by programs at runtime. They offer modularity, reusability, and efficient memory usage.
